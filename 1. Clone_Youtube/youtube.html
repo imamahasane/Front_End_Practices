@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>YouTube Clone</title>
+  <link rel="stylesheet" href="styles/video.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/sidebar.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="header">
+    <div class="left-section">
+      <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+      <img class="youtube-logo" src="icons/youtube-logo.svg">
+    </div>
+    <div class="middle-section">
+      <input class="search-bar" type="text" placeholder="Search">
+      <button class="search-button">
+        <img class="search-icon" src="icons/search.svg">
+        <div class="tooltip">Search</div>
+      </button>
+      <button class="voice-search-button">
+        <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+        <div class="tooltip">Search with your voice</div>
+      </button>
+    </div>
+    <div class="right-section">
+      <img class="upload-icon" src="icons/upload.svg">
+<!--       <div class="tooltip">Creat</div>-->      
+      <img class="youtube-apps-icons" src="icons/youtube-apps.svg">
+      <div class="notifications-icons-container">
+        <img class="notifications-icons" src="icons/notifications.svg">
+        <div class="notifications-count">6</div>
+      </div>
+      <img class="current-user-picture" src="channel-picture/channel-2.jpeg">
+    </div>
+  </div>
+
+  <div class="sidebar">
+    <div class="sidebar-link">
+      <img src="icons/home.svg">
+      <div>Home</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/explore.svg">
+      <div>Explore</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/subscriptions.svg">
+      <div>Subscriptions</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/originals.svg">
+      <div>Original</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/youtube-music.svg">
+      <div>YouTube Music</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/library.svg">
+      <div>Library</div>
+    </div>
+  </div>
+
+  <div class="video-grid">
+    <!-- Number-1 -->
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnail/thumbnail-1.webp">
+        <div class="video-time">14:37</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-picture/channel-1.jpeg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Talking Tech and AI with Google CEO Sundar Pichai!
+          </p>
+          <p class="video-author">
+            Marques Brownlee
+          </p>
+          <p class="video-stats">
+            3.4M views &#183; 6 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Number-2 -->
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnail/thumbnail-2.jpg">
+        <div class="video-time">14:37</div>
+      </div>
+      <div>
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-picture/channel-2.jpeg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            100 Right Form of Verbs | English Grammar Class
+          </p>
+          <p class="video-author">
+            10 Minute School Class 1-12
+          </p>
+          <p class="video-stats">
+            190,046 views &#183; Aug 2, 2022
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Number-3 -->
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnail/thumbnail-3.jpg">
+        <div class="video-time">14:37</div>
+      </div>
+      <div>
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-picture/channel-1.jpeg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Feitian Security Key Review & Setup
+          </p>
+          <p class="video-author">
+            Sohag360
+          </p>
+          <p class="video-stats">
+            73,277 views &#183; Sep 27, 2022
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Number-4 -->
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnail/thumbnail-4.jpg">
+        <div class="video-time">14:37</div>
+      </div>
+      <div>
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-picture/channel-2.jpeg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            HTML & CSS Full Course - Beginner to Pro (2022)
+          </p>
+          <p class="video-author">
+            SuperSimpleDev
+          </p>
+          <p class="video-stats">
+            1,874,385 views &#183; Feb 5, 2022
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Number-5 -->
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnail/thumbnail-5.jpg">
+        <div class="video-time">14:37</div>
+      </div>
+      <div>
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-picture/channel-1.jpeg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Vocabulary | Easy Way to Learn Vocabulary
+          </p>
+          <p class="video-author">
+            Munzereen Shahid
+          </p>
+          <p class="video-stats">
+            44,990 views &#183; Oct 20, 2021
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Number-6 -->
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnail/thumbnail-6.jpg">
+        <div class="video-time">14:37</div>
+      </div>
+      <div>
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-picture/channel-2.jpeg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            How and When to Start IELTS Preparation
+          </p>
+          <p class="video-author">
+            Munzereen Shahid
+          </p>
+          <p class="video-stats">
+            26,472 views &#183; Mar 15, 2022
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Number-7 -->
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnail/thumbnail-7.jpg">
+        <div class="video-time">14:37</div>
+      </div>
+      <div>
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-picture/channel-1.jpeg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Problem solving Competitive programming
+          </p>
+          <p class="video-author">
+            Jhankar Mahbub
+          </p>
+          <p class="video-stats">
+            32,434 views &#183; Sep 21, 2022
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Number-8 -->
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnail/thumbnail-8.jpg">
+        <div class="video-time">14:37</div>
+      </div>
+      <div>
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-picture/channel-2.jpeg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            How to make Notes for Coding? Data Structures & Algorithms
+          </p>
+          <p class="video-author">
+            Apna College
+          </p>
+          <p class="video-stats">
+            537,615 views &#183; Aug 18, 2022
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Number-8 -->
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnail/thumbnail-8.jpg">
+        <div class="video-time">14:37</div>
+      </div>
+      <div>
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-picture/channel-2.jpeg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            How to make Notes for Coding? Data Structures & Algorithms
+          </p>
+          <p class="video-author">
+            Apna College
+          </p>
+          <p class="video-stats">
+            537,615 views &#183; Aug 18, 2022
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
