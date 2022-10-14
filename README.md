@@ -1,1 +1,1 @@
-# Front_End_Practices
+# `Front-End Web Development Practices`
