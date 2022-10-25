@@ -1,0 +1,113 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #f3e0e2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  width: 80vw;
+  margin: 0 auto;
+  box-sizing: 10px 10px 40px #00000091;
+}
+
+main > * {
+  flex-basis: 100%;
+}
+
+.login-form {
+  background-color: #fff;
+  text-align: center;
+}
+
+.login-form-heading {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 3rem;
+  font-weight: 700;
+
+}
+
+.fa-brands {
+  border: 2px solid #EEEEEE;
+  padding: 15px;
+  font-size: 30px;
+  border-radius: 50%;
+  height: 60px;
+  margin-bottom: 30px;
+}
+
+.fa-facebook {
+  margin-right: 5px;
+}
+
+.fa-twitter {
+  margin-left: 5px;
+}
+
+input {
+  width: 80%;
+  background-color: #EEEEEE;
+  padding: 15px;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  border: none;
+}
+
+form a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #000000a6;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 18px;
+}
+
+input[type="submit"] {
+  background: #FF4B2B;
+  width: 23%;
+  border-radius: 30px;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.login-text {
+  background-image: linear-gradient(to right, #FF454D, #FF416A);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.text {
+  padding: 6rem;
+}
+
+.text h2 {
+  color: #fff;
+  /* font-weight: 900; */
+  font-size: 3.5rem;
+  margin-bottom: 25px;
+}
+
+.text p {
+  color: #FFF;
+  font-size: 1.4rem;
+}
+
+/* .login-text {
+  background-color: bisque;
+} */
