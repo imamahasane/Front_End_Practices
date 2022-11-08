@@ -1,0 +1,5 @@
+.my-link-style:hover {
+  text-decoration: underline;
+  background-color: gold;
+  border-radius: 10px;
+}
