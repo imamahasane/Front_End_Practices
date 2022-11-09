@@ -1,0 +1,31 @@
+.about-section {
+  background-color: rgba(76, 76, 76, 0.156);
+}
+.project-list {
+  background-color: rgba(76, 76, 76, 0.156);
+}
+.my-link-style:hover {
+  text-decoration: underline;
+  background-color: gold;
+  border-radius: 10px;
+}
+
+.card-my-style:hover {
+  -webkit-box-shadow: -7px 7px 14px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: -7px 7px 14px -3px rgba(0,0,0,0.75);
+  box-shadow: -7px 7px 14px -3px rgba(0,0,0,0.75);
+}
+
+.hr-style {
+  border: 5px dotted white;
+  border-bottom: none;
+  width: 50px;
+}
+
+.footer-style ul li{
+  list-style: none;
+}
+
+.my-footer:hover {
+  text-decoration: underline;
+}
