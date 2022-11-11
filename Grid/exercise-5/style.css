@@ -13,3 +13,58 @@ body {
   max-height: 100vh;
   padding: 4vh;
 }
+
+.container {
+  display: grid;
+  height: calc(100vh - 4vh * 2);
+  gap: 4vh;
+  grid-template-areas:
+    "A A A A  A A A A  A A A A"
+    "B B C C  C C C C  C C D D"
+    "B B C C  C C C C  C C D D"
+    "B B C C  C C C C  C C D D"
+    "E E E E  E E E E  E E E E";
+}
+
+[class^="block-"] {
+  display: grid;
+  place-content: center;
+  background-color: #c1c1c1;
+  border: 2px solid #48cae4;
+  border-radius: 10px;
+}
+
+.block-1 {
+  grid-area: A;
+}
+
+.block-2 {
+  grid-area: B;
+}
+
+.block-3 {
+  grid-area: C;
+}
+
+.block-4 {
+  grid-area: D;
+}
+
+.block-5 {
+  grid-area: E;
+}
+
+@media (max-width: 480px) {
+  .container {
+    grid-template-areas:
+      "A A A A  A A A A  A A A A"
+      "C C C C  C C C C  C C C C"
+      "C C C C  C C C C  C C C C"
+      "C C C C  C C C C  C C C C"
+      "D D D D  D D D D  D D D D"
+      "E E E E  E E E E  E E E E";
+  }
+  .block-2 {
+    display: none;
+  }
+}
